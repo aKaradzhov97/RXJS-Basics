@@ -29,32 +29,32 @@ import {
 // Comment / uncomment a line and open the browser to see the result.
 
 // 01. Observable
-//observable();
-
+// observable();
+//
 // 02. Observable - Asynchronous data
-//observableAsyncData();
-
+// observableAsyncData();
+//
 // 03. Observable creation operators
-//ofOperator();
-//rangeOperator();
-//fromOperator();
-//intervalOperator();
-//timerOperator();
-
+// ofOperator();
+// rangeOperator();
+// fromOperator();
+// intervalOperator();
+// timerOperator();
+//
 // 04. Pipeable operators
-//mapOperator();
-//pluckOperator();
-//mapToOperator();
-//filterOperator();
-//reduceOperator();
-//scanOperator();
-//countdownTimer();
-//tapOperator();
-
+// mapOperator();
+// pluckOperator();
+// mapToOperator();
+// filterOperator();
+// reduceOperator();
+// scanOperator();
+// countdownTimer();
+// tapOperator();
+//
 // 05. Filtering operators
-//takeOperator();
-//firstOperator();
-//takeWhileOperator();
-//takeUntilOperator();
-//distinctUntilChangedOperator();
-//distinctUntilKeyChangedOperator();
+// takeOperator();
+// firstOperator();
+// takeWhileOperator();
+// takeUntilOperator();
+// distinctUntilChangedOperator();
+// distinctUntilKeyChangedOperator();

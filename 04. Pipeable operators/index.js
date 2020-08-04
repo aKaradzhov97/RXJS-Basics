@@ -43,7 +43,7 @@ export function mapToOperator() {
 export function filterOperator() {
   const observable = of(1, 2, 3, 4, 5);
 
-  // Will result in: `10, 20, 30, 40, 50`
+  // Will result in: `3, 4, 5`
   observable.pipe(filter((value) => value > 2)).subscribe(console.log);
 }
 
