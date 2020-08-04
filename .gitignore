@@ -1,0 +1,14 @@
+# Dependencies
+node_modules
+
+# Output
+dist
+.cache
+
+# IDE - VSCode
+.idea
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
