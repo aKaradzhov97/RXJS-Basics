@@ -26,6 +26,14 @@ import {
   takeWhileOperator,
 } from "./05. Filtering operators";
 
+import {
+  auditTimeOperator,
+  debounceOperator,
+  debounceTimeOperator,
+  sampleTimeOperator,
+  throttleTimeOperator,
+} from "./06. Rate limiting operators";
+
 // Comment / uncomment a line and open the browser to see the result.
 
 // 01. Observable
@@ -58,3 +66,10 @@ import {
 // takeUntilOperator();
 // distinctUntilChangedOperator();
 // distinctUntilKeyChangedOperator();
+
+// 06. Rate limiting operators
+// debounceOperator();
+// debounceTimeOperator();
+// throttleTimeOperator();
+// sampleTimeOperator();
+// auditTimeOperator();
