@@ -33,6 +33,18 @@ import {
   sampleTimeOperator,
   throttleTimeOperator,
 } from "./06. Rate limiting operators";
+import {
+  concatMapOperator,
+  exhaustMapOperator,
+  mergeMapOperator,
+  switchMapOperator,
+} from "./07. Transformation operators";
+import {
+  combineLatestOperator,
+  concatOperator,
+  forkJoinOperator,
+  startWithEndWithOperators,
+} from "./08. Combination operators";
 
 // Comment / uncomment a line and open the browser to see the result.
 
@@ -73,3 +85,15 @@ import {
 // throttleTimeOperator();
 // sampleTimeOperator();
 // auditTimeOperator();
+
+// 07. Transformation operators
+// mergeMapOperator();
+// switchMapOperator();
+// concatMapOperator();
+// exhaustMapOperator();
+
+// 08. Combination operators
+// startWithEndWithOperators();
+// concatOperator();
+// combineLatestOperator();
+// forkJoinOperator();
